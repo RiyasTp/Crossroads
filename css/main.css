@@ -539,7 +539,7 @@ q {
 
   #accordion {
     margin: 3rem 0 3rem 0;
-    width: 48rem;
+    width: 65%;
   }
   .card a {
     color: black;
@@ -861,6 +861,9 @@ q {
     .team-thumb h3 {
       font-size: var(--h4-font-size);
     }
+    #accordion {
+    width: 80%;
+    }
   }
 
   @media screen and (max-width: 992px) {
@@ -894,6 +897,9 @@ q {
     .modal-content {
       padding: 2rem;
     }
+     #accordion {
+    width: 100%;
+    }
 
   }
   @media screen and (max-width: 767px) {
@@ -914,7 +920,8 @@ q {
 
     .team .box .image .social-icons i {
       font-size: 28px;
-      
     }
-
+    #accordian {
+      width:95%
+    }
   }
